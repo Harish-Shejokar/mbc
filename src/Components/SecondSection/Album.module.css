@@ -1,0 +1,24 @@
+.album {
+  display: flex;
+  flex: column;
+  width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  margin-bottom: 2rem;
+}
+.album::-webkit-scrollbar {
+  display: none;
+}
+
+.albumImg {
+  /* margin: 20px 40px; */
+  padding: 1px;
+}
+
+.albumImg img {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  /* border: 5px solid gray; */
+  margin: 0px 40px;
+  height: 100%;
+  border-radius: 12px;
+}

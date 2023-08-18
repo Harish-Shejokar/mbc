@@ -1,0 +1,17 @@
+
+.header{
+    width: 25rem;
+    /* border: 1px solid salmon; */
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    /* padding: 10px; */
+    margin: 0 auto;
+  
+}
+
+.header img{
+    width: 50px;
+
+}
+

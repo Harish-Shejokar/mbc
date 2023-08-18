@@ -1,0 +1,26 @@
+
+.userFace{
+    height: 10px;
+    width: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: start;
+    width: fit-content;
+    
+    margin-bottom: 60px;
+}
+
+.userFace img{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
+
+.minText{
+    margin:5px 10px;
+    font-size: 15px;
+    align-items: center;
+    color:rgb(119,119,119);
+
+}

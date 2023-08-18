@@ -1,0 +1,30 @@
+.chatBack {
+  background-color: rgb(232, 231, 231);
+  font-size: 16px;
+  text-align: start;
+  padding: 8px 15px;
+  border-radius: 10px;
+  width: fit-content;
+  margin: 3px 0;
+}
+
+.link{
+     background-color: rgb(232, 231, 231);
+  font-size: 16px;
+  text-align: start;
+  padding: 8px 15px;
+  border-radius: 10px;
+  width: fit-content;
+  margin: 3px 0;
+  
+}
+
+.link a{
+    text-decoration: underline;
+  color: black;
+}
+
+.link a:hover{
+    text-decoration: none;
+    color: black;
+}

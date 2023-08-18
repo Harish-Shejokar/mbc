@@ -1,0 +1,11 @@
+.msg{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+
+}
