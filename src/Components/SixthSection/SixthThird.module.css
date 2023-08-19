@@ -1,0 +1,47 @@
+.topMain {
+  display: flex;
+  flex-direction: column;
+}
+
+.sixthThirdMain {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.userName {
+  display: flex;
+  flex-direction: column;
+  /* gap: 10px; */
+}
+
+.sixthThirdImg {
+  width: 30px;
+}
+.sixthThirdImg img {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.ratingStar {
+  width: 20px;
+}
+
+.rating {
+  float: right;
+}
+
+@media screen and (max-width: 808px) {
+  .rating {
+    float: none;
+    /* background-color: burlywood; */
+  }
+}
+
+@media screen and (max-width: 808px) {
+  .topMain {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}

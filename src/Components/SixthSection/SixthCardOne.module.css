@@ -1,0 +1,84 @@
+
+
+.sixthImg{
+    width: 30px;
+}
+.sixthImg img{
+    width: 30px;
+}
+
+.sixthHeading{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.sixthTop{
+    margin-left: 10px;
+    color: rgb(136, 136,136);
+}
+
+.allBtn{
+   /* border: 1px solid black; */
+   margin-top: 1rem;
+   margin-bottom: 2rem;
+}
+
+.subscribeBtn{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    padding: 10px 16px;
+}
+.chatBtn{
+    margin-left: 10px;
+    background-color:rgb(0,0,0,0.08);
+    border: rgb(0,0,0,0);
+    color:#000;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    padding: 10px 16px;
+}
+
+.hourGlass{
+    list-style: none;
+    color: rgb(209, 35, 35);
+    margin-bottom: -.9rem;
+    font-size: 14px;
+}
+
+.hourGlass::before{
+    content: '';
+  display: inline-block;
+  height: 14px;
+  width: 14px;
+  background-size: 14px;
+  background-image: url("../../assets/hourGlass.png");
+  background-repeat: no-repeat;
+  margin-right: 5px;
+}
+
+
+.sixthList{
+    font-size: 14px;
+    margin: 1rem 0;
+    list-style: none;
+}
+
+.sixthList li::before{
+    content: '';
+  display: inline-block;
+  height: 14px;
+  width: 14px;
+   background-size: 14px;
+  background-image: url("../../assets/star.png");
+  background-repeat: no-repeat;
+  margin-right: 5px;
+
+}

@@ -2,21 +2,24 @@
   /* max-width: 1280px; */
   height: auto;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 1rem 0;
   text-align: center;
-   display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  flex-wrap: nowrap;
+  /* flex-wrap:wrap; */
+  
   /* border: 10px solid red; */
-  font-family:  Inter, Inter Placeholder, sans-serif;
+  font-family: Inter, Inter Placeholder, sans-serif;
   color: #000;
   /* width: 26rem; */
+  /* line-height: 1.3em; */
 }
 
 
-section{
-  margin: 1rem auto;
-}
 
+section {
+  margin-bottom: 3rem;
+ 
+}
 

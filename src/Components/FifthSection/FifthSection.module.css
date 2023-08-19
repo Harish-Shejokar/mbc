@@ -1,0 +1,9 @@
+
+
+
+.fifthMain{
+    display: flex;
+    /* border: 1px solid black; */
+    padding: 10px;
+    column-gap:20px;
+}

@@ -1,0 +1,18 @@
+
+.sixthCont{
+
+    cursor: pointer;
+}
+
+.sixthContMain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.plus,.minus{
+    width: 20px;
+    font-weight: bold;
+}

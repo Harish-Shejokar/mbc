@@ -4,20 +4,15 @@ import classes from "./Top1.module.css";
 const Top1 = () => {
   return (
     <div className={classes.top1}>
-      <div className={classes.topHeading}>
-        <span>World-class design.</span>
-        <span>
-          <strong style={{color:"black"}}>Endless</strong> requests.
-        </span>
-        <span> One subscription.</span>
+      <h1 className={classes.topHeading}>
+        Unlimited design support by world-class designers for a flat monthly
+        fee.
+      </h1>
+      <div className={classes.topSecond}>
+        Skip the ugly hiring process and start making design progress
+        immediately by getting instant-access to industry-leading designers with
+        over 20 years experience.
       </div>
-      <button
-        size="sm"
-        className={classes.topBtn}
-      >
-        <span className={classes.redSpot}></span>
-        Limited Availability
-      </button>
     </div>
   );
 }

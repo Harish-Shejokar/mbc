@@ -1,17 +1,20 @@
-
-.header{
-    width: 25rem;
-    /* border: 1px solid salmon; */
-    display: flex;
-    flex-direction: row;
-    align-items: start;
-    /* padding: 10px; */
-    margin: 0 auto;
-  
+.headerSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* border: 1px solid red; */
 }
 
-.header img{
-    width: 50px;
+.headerMain {
+  width: 26rem;
+  margin: 0 2rem;
+  /* border: 1px solid salmon; */
 
+  text-align: start;
+  /* padding: 10px; */
+  /* margin: 0 auto; */
 }
 
+.header img {
+  width: 50px;
+}

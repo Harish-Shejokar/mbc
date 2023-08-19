@@ -1,0 +1,27 @@
+
+
+
+.fifthBtm{
+    /* width: 280px; */
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    
+    /* border: 1px solid red; */
+
+}
+
+.fifthImg{
+    width: 24px;
+}
+
+.fifthHead{
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+
+.fifthPara{
+    font-size: 14px;
+    line-height: 1.3em;
+}

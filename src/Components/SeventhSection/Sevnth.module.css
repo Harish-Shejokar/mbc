@@ -1,0 +1,13 @@
+
+.sevenMain {
+  /* border: 1px solid red; */
+  width: 26rem;
+  margin: 1rem auto;
+  /* text-align: start; */
+}
+
+@media screen and (max-width:600px) {
+    .seventhSection{
+       margin: 1rem;
+    }
+}
